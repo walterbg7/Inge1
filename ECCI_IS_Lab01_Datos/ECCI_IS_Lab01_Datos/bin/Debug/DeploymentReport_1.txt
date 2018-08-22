@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       Primary Key: unnamed constraint on [dbo].[Matricula]
+     Possible data issues
+       None
+
+** User actions
+     Create
+       Primary Key: unnamed constraint on [dbo].[Matricula] (Primary Key)
+       [dbo].[FK_dbo.Matricula_dbo.Curso_CursoID] (Foreign Key)
+       [dbo].[FK_dbo.Matricula_dbo.Estudiante_EstudianteID] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+
