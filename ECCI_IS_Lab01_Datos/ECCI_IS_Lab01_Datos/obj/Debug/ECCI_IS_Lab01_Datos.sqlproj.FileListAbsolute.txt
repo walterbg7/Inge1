@@ -4,3 +4,9 @@ C:\Users\B61144\source\repos\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\bin\Debug\E
 C:\Users\B61144\source\repos\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\obj\Debug\ECCI_IS_Lab01_Datos.sqlprojAssemblyReference.cache
 C:\Users\B61144\source\repos\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\obj\Debug\ECCI_IS_Lab01_Datos.dll
 C:\Users\B61144\source\repos\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\obj\Debug\ECCI_IS_Lab01_Datos.pdb
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\bin\Debug\ECCI_IS_Lab01_Datos.dacpac
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\bin\Debug\ECCI_IS_Lab01_Datos.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\bin\Debug\ECCI_IS_Lab01_Datos.pdb
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\obj\Debug\ECCI_IS_Lab01_Datos.sqlprojAssemblyReference.cache
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\obj\Debug\ECCI_IS_Lab01_Datos.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_Datos\ECCI_IS_Lab01_Datos\obj\Debug\ECCI_IS_Lab01_Datos.pdb

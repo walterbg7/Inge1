@@ -12,7 +12,7 @@ namespace ECCI_IS_Lab01_WebApp.Controllers
 {
     public class CursoController : Controller
     {
-        private DB_B61144Entities db = new DB_B61144Entities();
+        private ECCI_IS_Lab01_DatosEntities db = new ECCI_IS_Lab01_DatosEntities();
 
         // GET: Curso
         public ActionResult Index()

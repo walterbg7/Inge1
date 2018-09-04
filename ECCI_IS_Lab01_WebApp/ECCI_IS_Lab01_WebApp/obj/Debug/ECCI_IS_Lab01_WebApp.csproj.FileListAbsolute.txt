@@ -1,75 +1,85 @@
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ApplicationInsights.config
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ECCI_IS_Lab01_WebApp.dll.config
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ECCI_IS_Lab01_WebApp.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ECCI_IS_Lab01_WebApp.pdb
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csc.exe
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csc.exe.config
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csc.rsp
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csi.exe
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csi.rsp
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.AppContext.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\vbc.exe
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\vbc.exe.config
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\vbc.rsp
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\VBCSCompiler.exe
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Antlr3.Runtime.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.Web.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.ApplicationInsights.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Newtonsoft.Json.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Helpers.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Mvc.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Optimization.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Razor.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Deployment.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Razor.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\WebGrease.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Helpers.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Mvc.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Optimization.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Razor.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Deployment.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Razor.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Newtonsoft.Json.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Antlr3.Runtime.pdb
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.Web.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.csprojAssemblyReference.cache
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.csproj.CoreCompileInputs.cache
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.csproj.CopyComplete
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.pdb
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.SqlServer.dll
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.xml
-C:\Users\B61144\source\repos\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ApplicationInsights.config
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ECCI_IS_Lab01_WebApp.dll.config
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ECCI_IS_Lab01_WebApp.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\ECCI_IS_Lab01_WebApp.pdb
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csc.exe
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csc.exe.config
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csc.rsp
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csi.exe
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\csi.rsp
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\vbc.exe
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\vbc.exe.config
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\vbc.rsp
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Antlr3.Runtime.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.Web.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Newtonsoft.Json.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Helpers.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Mvc.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Optimization.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Razor.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\WebGrease.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Helpers.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Mvc.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Optimization.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.Razor.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Newtonsoft.Json.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.AI.Web.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\es\System.Web.Helpers.resources.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\es\System.Web.Mvc.resources.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\es\System.Web.Optimization.resources.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\es\System.Web.Razor.resources.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\es\System.Web.WebPages.resources.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.csproj.CoreCompileInputs.cache
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.csproj.CopyComplete
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.pdb
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\obj\Debug\ECCI_IS_Lab01_WebApp.csprojAssemblyReference.cache
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\Inge1\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\Inge1\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\walte\Desktop\UCR\INGENIERIA DE SOFTWARE\Lab 01\Inge1\ECCI_IS_Lab01_WebApp\ECCI_IS_Lab01_WebApp\bin\roslyn\System.Collections.Immutable.dll

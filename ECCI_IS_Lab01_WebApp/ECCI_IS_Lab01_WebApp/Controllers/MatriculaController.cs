@@ -12,7 +12,7 @@ namespace ECCI_IS_Lab01_WebApp.Controllers
 {
     public class MatriculaController : Controller
     {
-        private DB_B61144Entities db = new DB_B61144Entities();
+        private ECCI_IS_Lab01_DatosEntities db = new ECCI_IS_Lab01_DatosEntities();
 
         // GET: Matricula
         public ActionResult Index()

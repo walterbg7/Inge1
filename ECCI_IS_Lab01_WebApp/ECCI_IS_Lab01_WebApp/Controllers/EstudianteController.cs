@@ -12,7 +12,7 @@ namespace ECCI_IS_Lab01_WebApp.Controllers
 {
     public class EstudianteController : Controller
     {
-        private DB_B61144Entities db = new DB_B61144Entities();
+        private ECCI_IS_Lab01_DatosEntities db = new ECCI_IS_Lab01_DatosEntities();
 
         // GET: Estudiante
         public ActionResult Index()
@@ -46,7 +46,7 @@ namespace ECCI_IS_Lab01_WebApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "EstudianteID,Apellido,Nombre,FechaMatricula")] Estudiante estudiante)
+        public ActionResult Create([Bind(Include = "EstudianteID,Apellido,Nombre,FechaMatricula,CorreoElectronico")] Estudiante estudiante)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace ECCI_IS_Lab01_WebApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "EstudianteID,Apellido,Nombre,FechaMatricula")] Estudiante estudiante)
+        public ActionResult Edit([Bind(Include = "EstudianteID,Apellido,Nombre,FechaMatricula,CorreoElectronico")] Estudiante estudiante)
         {
             if (ModelState.IsValid)
             {

@@ -2,34 +2,34 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
+// La información general sobre un ensamblado se controla mediante lo siguiente
+// conjunto de atributos. Cambie los valores de estos atributos para modificar la información
+// asociada con un ensamblado.
 [assembly: AssemblyTitle("ECCI_IS_Lab01_WebApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("HP Inc.")]
 [assembly: AssemblyProduct("ECCI_IS_Lab01_WebApp")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright © HP Inc. 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
+// Si configura ComVisible como falso, los tipos de este ensamblado no se hacen visibles
+// para componentes COM.  Si necesita acceder a un tipo de este ensamblado desde
+// COM, establezca el atributo ComVisible en True en este tipo.
 [assembly: ComVisible(false)]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2c46bcb3-f8a5-4237-8575-db0bd10f55a9")]
+// El siguiente GUID sirve como ID de typelib si este proyecto se expone a COM
+[assembly: Guid("86c59419-b6d1-42ce-8527-b2f88956433b")]
 
-// Version information for an assembly consists of the following four values:
+// La información de versión de un ensamblado consta de los siguientes cuatro valores:
 //
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
+//      Versión principal
+//      Versión secundaria
+//      Número de compilación
+//      Revisión
 //
-// You can specify all the values or you can default the Revision and Build Numbers
-// by using the '*' as shown below:
+// Puede especificar todos los valores o puede predeterminar los números de compilación y de revisión
+// mediante el carácter '*', como se muestra a continuación:
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

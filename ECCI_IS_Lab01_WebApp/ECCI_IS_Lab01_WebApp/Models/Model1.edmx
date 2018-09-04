@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="ECCI_IS_Lab01_DatosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="ECCI_IS_Lab01_DatosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Curso">
           <Key>
             <PropertyRef Name="CursoID" />
@@ -12,6 +12,14 @@
           <Property Name="CursoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Titulo" Type="nvarchar" MaxLength="50" />
           <Property Name="Creditos" Type="int" />
+        </EntityType>
+        <EntityType Name="Departamento">
+          <Key>
+            <PropertyRef Name="DepartamentoId" />
+          </Key>
+          <Property Name="DepartamentoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+          <Property Name="Presupuesto" Type="float" />
         </EntityType>
         <EntityType Name="Estudiante">
           <Key>
@@ -21,10 +29,24 @@
           <Property Name="Apellido" Type="nvarchar" MaxLength="50" />
           <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
           <Property Name="FechaMatricula" Type="datetime" />
+          <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="120" />
         </EntityType>
         <EntityType Name="Matricula">
           <Key>
             <PropertyRef Name="MatriculaID" />
+          </Key>
+          <Property Name="MatriculaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nota" Type="decimal" Precision="3" Scale="2" />
+          <Property Name="CursoID" Type="int" Nullable="false" />
+          <Property Name="EstudianteID" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'DB_B61144.dbo.VistaMatricula' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="VistaMatricula">
+          <Key>
+            <PropertyRef Name="MatriculaID" />
+            <PropertyRef Name="CursoID" />
+            <PropertyRef Name="EstudianteID" />
           </Key>
           <Property Name="MatriculaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nota" Type="decimal" Precision="3" Scale="2" />
@@ -59,10 +81,23 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="Departamento_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="Presupuesto" Type="float" Mode="In" />
+        </Function>
         <EntityContainer Name="ECCI_IS_Lab01_DatosModelStoreContainer">
           <EntitySet Name="Curso" EntityType="Self.Curso" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Departamento" EntityType="Self.Departamento" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Estudiante" EntityType="Self.Estudiante" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Matricula" EntityType="Self.Matricula" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VistaMatricula" EntityType="Self.VistaMatricula" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VistaMatricula].[MatriculaID] AS [MatriculaID], 
+    [VistaMatricula].[Nota] AS [Nota], 
+    [VistaMatricula].[CursoID] AS [CursoID], 
+    [VistaMatricula].[EstudianteID] AS [EstudianteID]
+    FROM [dbo].[VistaMatricula] AS [VistaMatricula]</DefiningQuery>
+          </EntitySet>
           <AssociationSet Name="FK_dbo_Matricula_dbo_Curso_CursoID" Association="Self.FK_dbo_Matricula_dbo_Curso_CursoID">
             <End Role="Curso" EntitySet="Curso" />
             <End Role="Matricula" EntitySet="Matricula" />
@@ -72,8 +107,7 @@
             <End Role="Matricula" EntitySet="Matricula" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ECCI_IS_Lab01_DatosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -94,6 +128,7 @@
           <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="FechaMatricula" Type="DateTime" Precision="3" />
+          <Property Name="CorreoElectronico" Type="String" MaxLength="120" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Matriculas" Relationship="Self.FK_dbo_Matricula_dbo_Estudiante_EstudianteID" FromRole="Estudiante" ToRole="Matricula" />
         </EntityType>
         <EntityType Name="Matricula">
@@ -135,7 +170,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="DB_B61144Entities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="ECCI_IS_Lab01_DatosEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Cursoes" EntityType="Self.Curso" />
           <EntitySet Name="Estudiantes" EntityType="Self.Estudiante" />
           <EntitySet Name="Matriculas" EntityType="Self.Matricula" />
@@ -147,13 +182,34 @@
             <End Role="Estudiante" EntitySet="Estudiantes" />
             <End Role="Matricula" EntitySet="Matriculas" />
           </AssociationSet>
+          <EntitySet Name="VistaMatriculas" EntityType="ECCI_IS_Lab01_DatosModel.VistaMatricula" />
+          <EntitySet Name="Departamentoes" EntityType="ECCI_IS_Lab01_DatosModel.Departamento" />
         </EntityContainer>
+        <EntityType Name="VistaMatricula">
+          <Key>
+            <PropertyRef Name="MatriculaID" />
+            <PropertyRef Name="CursoID" />
+            <PropertyRef Name="EstudianteID" />
+          </Key>
+          <Property Name="MatriculaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nota" Type="Decimal" Precision="3" Scale="2" />
+          <Property Name="CursoID" Type="Int32" Nullable="false" />
+          <Property Name="EstudianteID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Departamento">
+          <Key>
+            <PropertyRef Name="DepartamentoId" />
+          </Key>
+          <Property Name="DepartamentoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Presupuesto" Type="Double" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ECCI_IS_Lab01_DatosModelStoreContainer" CdmEntityContainer="DB_B61144Entities">
+        <EntityContainerMapping StorageEntityContainer="ECCI_IS_Lab01_DatosModelStoreContainer" CdmEntityContainer="ECCI_IS_Lab01_DatosEntities">
           <EntitySetMapping Name="Cursoes">
             <EntityTypeMapping TypeName="ECCI_IS_Lab01_DatosModel.Curso">
               <MappingFragment StoreEntitySet="Curso">
@@ -170,6 +226,7 @@
                 <ScalarProperty Name="Apellido" ColumnName="Apellido" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="FechaMatricula" ColumnName="FechaMatricula" />
+                <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -181,6 +238,33 @@
                 <ScalarProperty Name="CursoID" ColumnName="CursoID" />
                 <ScalarProperty Name="EstudianteID" ColumnName="EstudianteID" />
               </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VistaMatriculas">
+            <EntityTypeMapping TypeName="ECCI_IS_Lab01_DatosModel.VistaMatricula">
+              <MappingFragment StoreEntitySet="VistaMatricula">
+                <ScalarProperty Name="EstudianteID" ColumnName="EstudianteID" />
+                <ScalarProperty Name="CursoID" ColumnName="CursoID" />
+                <ScalarProperty Name="Nota" ColumnName="Nota" />
+                <ScalarProperty Name="MatriculaID" ColumnName="MatriculaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departamentoes">
+            <EntityTypeMapping TypeName="ECCI_IS_Lab01_DatosModel.Departamento">
+              <MappingFragment StoreEntitySet="Departamento">
+                <ScalarProperty Name="Presupuesto" ColumnName="Presupuesto" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="DepartamentoId" ColumnName="DepartamentoId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="ECCI_IS_Lab01_DatosModel.Departamento">
+              <ModificationFunctionMapping>
+                <InsertFunction FunctionName="ECCI_IS_Lab01_DatosModel.Store.Departamento_Insert">
+                  <ScalarProperty Name="Presupuesto" ParameterName="Presupuesto" />
+                  <ScalarProperty Name="Nombre" ParameterName="Nombre" />
+                </InsertFunction>
+              </ModificationFunctionMapping>
             </EntityTypeMapping>
           </EntitySetMapping>
         </EntityContainerMapping>
@@ -200,7 +284,7 @@
         <DesignerProperty Name="EnablePluralization" Value="true" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
-        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->
